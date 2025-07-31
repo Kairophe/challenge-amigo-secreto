@@ -70,6 +70,15 @@ body {
     text-align: center;
 }
 
+.section-description {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin: 10px 0;
+    text-align: center;
+}
+
 /* Contenedores de entrada y botón */
 .input-wrapper {
     display: flex;
@@ -121,6 +130,7 @@ button {
     border-radius: 0 25px 25px 0;
 }
 
+
 .button-add:hover {
     background-color: #a1a1a1;
 }
@@ -140,6 +150,24 @@ ul {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+}
+
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    background-color: rgb(246, 53, 53);
+    color: white;
+    border-radius: 25px;
+    align-items: center;
+}
+.button-reset:hover {
+    background-color: rgb(220, 20, 60);
+}
+
+.button-reset img {
+    margin-right: 40px;
 }
 
 /* Botón de sortear título */
